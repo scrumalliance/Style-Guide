@@ -1,4 +1,4 @@
-# Style-Guide
+# Style-Guide :art:
 [Scrum Alliance Style & Components](https://projects.invisionapp.com/share/QMJGWVZU69R#/screens/303774429)
 
 ## Typography 
