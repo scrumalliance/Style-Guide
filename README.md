@@ -64,10 +64,10 @@
 
 - Secondary:hover, :active, :visited: `border-color:#25495C; color: #FFFFFF; background-color: #25495C;`
 
--Primary on Dark: `border-color: #FFFFFF; background-color: transparent; color: #FFFFFF;`
+- Primary on Dark: `border-color: #FFFFFF; background-color: transparent; color: #FFFFFF;`
 
--Primary on Dark:hover, :active, :visited: `border-color: #009FDA; background-color: #009FDA; color: #FFFFFF;`
+- Primary on Dark:hover, :active, :visited: `border-color: #009FDA; background-color: #009FDA; color: #FFFFFF;`
 
--Secondary on Dark: `border-color: #FFFFFF; background-color: #25495C color: #FFFFFF;`
+- Secondary on Dark: `border-color: #FFFFFF; background-color: #25495C color: #FFFFFF;`
 
--Secondary on Dark:hover, :active, :visited: `border-color: #FFFFFF; background-color: #FFFFFF; color: #25495C;`
+- Secondary on Dark:hover, :active, :visited: `border-color: #FFFFFF; background-color: #FFFFFF; color: #25495C;`
