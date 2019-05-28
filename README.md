@@ -3,7 +3,7 @@
 
 ## Typography 
 
-### TYPEFACE
+### Typeface
 - Clear Sans Regular
 - Clear Sans Thin
 - Clear Sans Medium 
@@ -41,3 +41,33 @@
 - ![#C3D0D6](https://placehold.it/15/C3D0D6/000000?text=+) `#C3D0D6` | SILVER *borders*
 - ![#F5F8FA](https://placehold.it/15/F5F8FA/000000?text=+) `#F5F8FA` | OFF-WHITE *background*
 - ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF` | WHITE
+
+
+## Spacing
+- `6px;`
+- `8px;`
+- `16px;`
+- `24px;`
+- `36px;`
+- `60px;`
+- `80px;`
+
+
+## Buttons 
+- Base Button: `display: inline-block; font-weight: 400; text-align: center; white-space: nowrap; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; border: 1px solid transparent; padding: .375rem .75rem; font-size: 1rem; line-height: 1.5; border-radius: .25rem; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;`
+
+- Primary: `background-color: #009FDA; color: #FFFFFF; border-color: #009FDA;`
+
+- Primary:hover, :active, :visited: `background-color: #45BBE6; border-color: #45BBE6;`
+
+- Secondary: `border-color: #25495C; color: #2495C; background-color: #FFFFFF;`
+
+- Secondary:hover, :active, :visited: `border-color:#25495C; color: #FFFFFF; background-color: #25495C;`
+
+-Primary on Dark: `border-color: #FFFFFF; background-color: transparent; color: #FFFFFF;`
+
+-Primary on Dark:hover, :active, :visited: `border-color: #009FDA; background-color: #009FDA; color: #FFFFFF;`
+
+-Secondary on Dark: `border-color: #FFFFFF; background-color: #25495C color: #FFFFFF;`
+
+-Secondary on Dark:hover, :active, :visited: `border-color: #FFFFFF; background-color: #FFFFFF; color: #25495C;`
