@@ -1,9 +1,28 @@
-# :art: Style-Guide
+# :art: Style Guide
 [Scrum Alliance Style & Components](https://projects.invisionapp.com/share/QMJGWVZU69R#/screens/303774429)
 
 ## Typography 
-- TYPEFACE: Clear Sans
 
+### TYPEFACE
+- Clear Sans Regular
+- Clear Sans Thin
+- Clear Sans Medium 
+- Clear Sans Bold
+
+### Titles
+- Title Display (H1)  | `font-size: 60px; letter-spacing: -1.0px;`
+- Title Page (H2)     | `font-size: 36px;`
+- Title Large (H3)    | `font-size: 28px;`
+- Title Medium (H4)   | `font-size: 22px; letter-spacing: -0.2px;`
+- Title Small (H5)    | `font-size: 18px; letter-spacing: -0.2px;`
+- All Caps Large (H6) | `font-size: 18px; letter-spacing: 1.6px; text-transform: uppercase;`
+- All Caps Small (H7) | `font-size: 15px; letter-spacing: 2.0px; text-transform: uppercase;` 
+
+### Body
+- Body Large    | `font-size: 20px; letter-spacing: -0.2px;`
+- Body Medium   | `font-size: 17px;`
+- Body Small    | `font-size: 15px; letter-spacing: 0.2px;`
+- Body XSmall   | `font-size: 13px;`
 
 
 ## Colors
