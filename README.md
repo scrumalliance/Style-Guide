@@ -71,3 +71,10 @@
 - Secondary on Dark: `border-color: #FFFFFF; background-color: #25495C color: #FFFFFF;`
 
 - Secondary on Dark:hover, :active, :visited: `border-color: #FFFFFF; background-color: #FFFFFF; color: #25495C;`
+
+## Links 
+- Primary Link: `.SAPrimaryLink:link { color: #009FDA; text-decoration: none; font-weight: bold; }`
+`.SAPrimaryLink:hover, .SAPrimaryLink:active, .SAPrimaryLink:visited { color: #25495C; text-decoration: none; font-weight: bold; }`
+    
+- Secondary Link: `.SASecondaryLink:link { color: #25495C; text-decoration: none; font-weight: bold; }`
+`.SASecondaryLink:hover, .SASecondaryLink:active, .SASecondaryLink:visited { color: #009FDA; text-decoration: none; font-weight: bold; }`
