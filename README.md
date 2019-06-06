@@ -1,5 +1,6 @@
 # :art: Style Guide
 [Scrum Alliance Style & Components](https://projects.invisionapp.com/share/QMJGWVZU69R#/screens/303774429)
+
 [Wireframes & Mockups](https://projects.invisionapp.com/share/QMJGWVZU69R#/screens/298438531)
 
 ## Typography 
