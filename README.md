@@ -80,14 +80,12 @@
 `.SASecondaryLink:hover, .SASecondaryLink:active, .SASecondaryLink:visited { color: #009FDA; text-decoration: none; font-weight: bold; }`
 
 ## Switches
-
 ```
 <label class="switch">
   <input type="checkbox">
   <span class="slider"></span>
 </label>
-```
-```
+
 <label class="switch">
   <input type="checkbox" checked>
   <span class="slider"></span>
@@ -107,3 +105,40 @@
 `input:focus + .slider { box-shadow: 0 0 1px #4BBD4B; /* Alternative:  box-shadow: 0 0 1px #41a341; */ }`
 
 `input:checked + .slider:before { -webkit-transform: translateX(26px); -ms-transform: translateX(26px); transform: translateX(26px); } `
+
+## Checkboxes
+```
+<label class="container">Checkbox Unselected
+  <input type="checkbox">
+  <span class="checkbox"></span>
+</label>
+<label class="container">Checkbox Selected
+  <input type="checkbox" checked>
+  <span class="checkbox"></span>
+</label>
+```
+
+`/* The container */`
+`.container { display: block; position: relative; padding-left: 36px; margin-bottom: 16px; cursor: pointer; font-size: 20px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }`
+
+`/* Hide the browser's default checkbox */`
+`.container input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }`
+
+`/* Create a custom checkbox */`
+`.checkbox { position: absolute; top: 0; left: 0; height: 20px; width: 20px; background-color: #fff; border: 1px solid #374c57; border-radius: 4px; }`
+
+`/* On mouse-over, the border darkens */`
+`.container:hover input ~ .checkbox { border: 1px solid #21343D; }`
+
+`/* When the checkbox is checked, add a dark grey background */`
+`.container input:checked ~ .checkbox { background-color: #374c57; }`
+`.container input:checked:hover ~ .checkbox { background-color: #21343d; }`
+
+`/* Create the checkmark/indicator (hidden when not checked) */`
+`.checkbox:after { content: ""; position: absolute; display: none; }`
+
+`/* Show the checkmark when checked */`
+`.container input:checked ~ .checkbox:after { display: block; }`
+
+`/* Style the checkmark/indicator */`
+`.container .checkbox:after { left: 6px; top: 2px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }`
