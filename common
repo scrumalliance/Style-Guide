@@ -1,0 +1,190 @@
+.pro-cyan {
+    color: #009fda;
+}
+
+.light-pro-cyan {
+    color: #45bbe6;
+}
+
+.teal {
+    color: #00998F;
+}
+
+.dark-grey {
+    color: #21343D;
+}
+
+.grey {
+    color: #374C57;
+}
+
+.light-grey {
+    color: #5B7380;
+}
+
+.slate {
+    color: #94A7B0;
+}
+
+.silver {
+    color: #C3D0D6;
+}
+
+.off-white {
+    color: #F5F8FA;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.green {
+    color: #4bbd4b;
+}
+
+.dark-green {
+    color: #41a341;
+}
+
+.blue-grey {
+    color: #25495c;
+}
+
+.navy {
+    color: #1c638a;
+}
+
+.yellow {
+    color: #ebb400;
+}
+
+.SATitleDisplay {
+    font-size: 6rem;
+    letter-spacing: -1.0px;
+    color: #21343D;
+    font-weight: bold;
+}
+
+.SATitlePage {
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+
+.SATitleLg {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.SATitleMd {
+    font-size: 2.2rem;
+    letter-spacing: -0.2px;
+}
+
+.SATitleSm {
+    font-size: 1.6rem;
+    letter-spacing: -0.2px;
+}
+
+.SATextLg {
+    font-size: 2rem;
+    letter-spacing: -0.2px;
+}
+
+.SATextMd {
+    font-size: 1.7rem;
+}
+
+.SATextSm {
+    font-size: 1.5rem;
+    letter-spacing: 0.2px;
+}
+
+.SATextXS {
+    font-size: 1.3rem;
+}
+
+.SATitleCapsSm {
+    font-size: 1.3rem;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.SATitleCapsLg {
+    font-size: 1.8rem;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.SAPrimaryLink {
+    color: #009FDA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .SAPrimaryLink:link {
+        color: #009FDA;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .SAPrimaryLink:hover, .SAPrimaryLink:active, .SAPrimaryLink:visited {
+        color: #25495C;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+.SASecondaryLink:link {
+    color: #25495C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.SASecondaryLink:hover, .SASecondaryLink:active, .SASecondaryLink:visited {
+    color: #009FDA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.SAPrimaryButton {
+    background: #009FDA;
+    border: 1px solid #009FDA;
+    color: #FFFFFF;
+    text-decoration: none;
+    min-width: 7.5rem;
+    width: auto;
+}
+
+    .SAPrimaryButton:hover, .SAPrimaryButton:focus, .SAPrimaryButton:visited {
+        background: #45BBE6;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .SAPrimaryButton:disabled, .SAPrimaryButton[disabled] {
+        background: #94A7B0;
+        color: #FFFFFF;
+        text-decoration: none;
+        border-color: #94A7B0;
+    }
+
+.SASecondaryButton {
+    background: #FFFFFF;
+    color: #25495C;
+    border: 1px solid #25495C;
+    border-radius: 4px;
+    min-width: 7.5rem;
+    width: auto;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+}
+
+    .SASecondaryButton:hover {
+        background: #25495C;
+        color: #FFFFFF;
+        border: 1px solid #25495C;
+        border-radius: 4px;
+        font-weight: 600;
+        letter-spacing: 1.1px;
+    }
