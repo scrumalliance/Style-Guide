@@ -26,6 +26,8 @@
 - Body Small    | `font-size: 15px; letter-spacing: 0.2px;`
 - Body XSmall   | `font-size: 13px;`
 
+## Iconography
+- [Font Awesome](https://fontawesome.com/)
 
 ## Colors
 - ![#009FDA](https://placehold.it/15/009FDA/000000?text=+) `#009FDA` | PRO CYAN *links & primary button rest* 
